@@ -1,1 +1,0 @@
-# vinogradov.github.io

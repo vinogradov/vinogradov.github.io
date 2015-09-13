@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html ng-app="vinogradov.github.io">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="UTF-8">
+    <title>vinogradov</title>
+    <link type="text/css" rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="bower_components/angular-material/angular-material.min.js"></script>
+
+    <link type="text/css" rel="stylesheet" href="app/app.css">
+    <script src="app/app.js"></script>
+  </head>
+
+  <body>
+      <header>
+          <nav>
+              <md-content class="md-padding">
+                <md-tabs md-dynamic-height md-border-bottom md-selected="selectedTabIndex">
+                  <md-tab label="Blog" ui-sref="blog">
+                  </md-tab>
+
+                  <md-tab label="Awesome CSS Demos" ui-sref="awesome-css-demos">
+                  </md-tab>
+                </md-tabs>
+              </md-content>
+          </nav>
+      <header>
+
+      <div ui-view></div> 
+  </body>
+  </html>

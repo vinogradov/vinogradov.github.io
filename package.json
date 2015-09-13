@@ -1,0 +1,22 @@
+{
+  "name": "vinogradov.github.io",
+  "version": "1.0.0",
+  "description": "blog about tech things",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinogradov/vinogradov.github.io.git"
+  },
+  "author": "Vadim Vinogradov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vinogradov/vinogradov.github.io/issues"
+  },
+  "homepage": "https://github.com/vinogradov/vinogradov.github.io#readme",
+  "dependencies": {
+    "bower": "1.5.2"
+  }
+}
